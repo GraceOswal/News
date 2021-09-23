@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8"> {% if title %}
+    <title>
+        {{ title}}
+    </title>
+    {% else %}
+    <title>
+        Welcome to our #1 Online News Blog, News at Your Doorstep!
+    </title>
+    {% endif %}
+</head>
+
+<body>
+    {% extends 'base.html' %} {% from 'show_articles_macro.html' import show_articles%} {% block content %}
+    <div>{{ show_articles(articles)}}</div>
+    {% endblock %}
+
+</body>
+
+</html>
