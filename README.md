@@ -1,6 +1,5 @@
 # News
 
-
 News application created by Flask uses the News_API key to display the news sources, get the news articles from a specific news source via the API url key and also searches for the various news sources from the news articles.
 
 ## Setup
