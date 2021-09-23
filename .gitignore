@@ -3,4 +3,5 @@
 virtual/
 
 *.pyc
+instance/
 .history
